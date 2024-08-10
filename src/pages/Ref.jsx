@@ -2,13 +2,13 @@ import React from 'react'
 import { useState } from 'react';
 
 
-function Pag() {
+export function Ref() {
   return (
 
 
     <div>
         
-        <h1>Referências bibliográficas</h1>
+        <h1 id='title'>Referências bibliográficas</h1>
     
         <h3>Importância do sono:</h3>
         <p>O sono é muito importante na nossa vida e se não dormimos não conseguimos sobreviver. A importância  do sono é que quando estamos dormindo o organismo regula o sistema imunológico, o sistema hormonal e recompõe os neurotransmissores.</p>
@@ -24,4 +24,3 @@ function Pag() {
   )
 }
 
-export default pag

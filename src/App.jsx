@@ -1,18 +1,27 @@
-import { createBrowserRouter, RouterProvider} from "react-router-dom"
-import {Pag } from "./pages/Pag"
+import { createBrowserRouter, RouterProvider } from "react-router-dom"
+import { Ref } from "./pages/Ref"
+import {  ThemeProvider } from "styled-components"
+import { GlobalStyle } from "./styles/global.js"
+
+
+import { theme } from "./styles/theme.js"
 
 const router = createBrowserRouter ([
   {
 
    path: "/",
-   element: <Pag/>
+   element: <Ref/>
 
   }
 ])
-function App() {
+
+export default function App() {
   return (
-    <div>App</div>
+    <ThemeProvider theme={theme}>
+       <RouterProvider router={router}/> 
+       <GlobalStyle/>
+       </ThemeProvider>
+           
   )
 }
 
-export default App
