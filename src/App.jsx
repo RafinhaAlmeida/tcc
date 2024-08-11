@@ -1,5 +1,7 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
-import { Ref } from "./pages/Ref"
+import { Ref } from "./pages/Ref.jsx"
+import { Qs } from "./pages/Qs.jsx"
+
 import {  ThemeProvider } from "styled-components"
 import { GlobalStyle } from "./styles/global.js"
 
@@ -10,7 +12,8 @@ const router = createBrowserRouter ([
   {
 
    path: "/",
-   element: <Ref/>
+   element: <Ref/>,
+   element:<Qs/>
 
   }
 ])
