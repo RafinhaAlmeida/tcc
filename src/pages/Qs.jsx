@@ -1,6 +1,8 @@
 import React from 'react'
 import { useState } from 'react';
-
+import kaykeImg from "../assets/Kaykeimg.jpeg"
+import RenanImg from "../assets/Renanimg.jpeg"
+import RafaelImg from "../assets/Rafaelimg.jpeg"
 
 export function Qs() {
   return (
@@ -8,16 +10,20 @@ export function Qs() {
 
     <div>
         
-        <h1 id='title' align="center">Referências bibliográficas</h1>
-    
-        <h3 id='subtitle'>Importância do sono:</h3>
-        <p id='text'>O sono é muito importante na nossa vida e se não dormimos não conseguimos sobreviver. A importância  do sono é que quando estamos dormindo o organismo regula o sistema imunológico, o sistema hormonal e recompõe os neurotransmissores.</p>
+        <h1 id='titleimg' align="center">Quem somos?</h1>
+        
+        <img src={kaykeImg} alt="foto do kayke" id='icon'/>
+        <h3 id='subtitleimg'>Kayke Ferraz</h3>
+        <p id='textimg'>Desenvolvedor de hardware,
+        responsável pela programação.</p>
+        
+        <img src={RenanImg} alt="foto do renan" id='icon'/>
+        <h3  id='subtitleimg'>Renan Salvador</h3>
+        <p id='textimg'>Projetista de UX, responsável pela interface do usuário.</p>
 
-        <h3  id='subtitle'>Uso de vibrações:</h3>
-        <p id='text'>A vibração no sono oferece diversos benefícios, incluindo relaxamento muscular, redução do estresse e ansiedade, melhoria na circulação sanguínea, alívio de dores, promoção do sono profundo, melhoria no despertar e estímulo ao sistema sensorial. Esses efeitos contribuem para uma melhor qualidade de sono e bem-estar geral, embora os resultados possam variar de pessoa para pessoa.</p>
-
-        <h3  id='subtitle'>Frequências de vibração:</h3>
-        <p id='text'>É importante para as pessoas experimentarem diferentes frequências para encontrar aquela que funciona melhor para elas. Algumas pessoas podem responder melhor a frequências mais baixas, enquanto outras podem se beneficiar mais de frequências mais altas. Além disso, a intensidade da vibração também pode influenciar os efeitos no sono. Recomenda-se começar com frequências mais baixas e aumentar gradualmente conforme necessário, sempre prestando atenção à própria resposta e conforto. Este método permite uma adaptação mais suave e personalizada, ajudando a encontrar a frequência ideal para promover um sono melhor.</p>
+        <img src={RafaelImg} alt="foto do rafael" id='icon'/>
+        <h3  id='subtitleimg'>Rafael Rodrigues</h3>
+        <p id='textimg'>Engenheiro de software, responsável em sensoriamento.</p>
     
     </div>
 

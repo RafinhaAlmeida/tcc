@@ -8,7 +8,7 @@ export function Ref() {
 
     <div>
         
-        <h1 id='title' align="center">Referências bibliográficas</h1>
+        <h1 id='titleone' align="center">Referências bibliográficas</h1>
     
         <h3 id='subtitle'>Importância do sono:</h3>
         <p id='text'>O sono é muito importante na nossa vida e se não dormimos não conseguimos sobreviver. A importância  do sono é que quando estamos dormindo o organismo regula o sistema imunológico, o sistema hormonal e recompõe os neurotransmissores.</p>
