@@ -1,8 +1,8 @@
 import React from 'react'
 import { useState } from 'react';
-import kaykeImg from "../assets/Kaykeimg.jpeg"
-import RenanImg from "../assets/Renanimg.jpeg"
-import RafaelImg from "../assets/Rafaelimg.jpeg"
+import kaykeImg from "../assets/Kaykeimg.png"
+import RenanImg from "../assets/Renanimg.png"
+import RafaelImg from "../assets/Rafaelimg.png"
 
 export function Qs() {
   return (

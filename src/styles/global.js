@@ -7,7 +7,7 @@ export const GlobalStyle = createGlobalStyle`
         box-sizing: border-box;
         font-family: 'Arial Narrow Bold', sans-serif;
         background-color: #FFFAFA;
-    
+   
         }
 
     #titleone {
@@ -25,8 +25,10 @@ export const GlobalStyle = createGlobalStyle`
         display: flex ;
         font-size: 3rem;
         display: flex;
-        justify-content: center;
-        justify-content: right ;
+        display: flex ;
+        align-items: flex-start ;
+        justify-content: center ;
+        margin: 15%;
     }
 
     #subtitle {
@@ -37,13 +39,15 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     #subtitleimg {
-        justify-content: right ;
         padding: 0.1em 0.5rem 0.1em;
         color: #F08080;
         font-size: 1.4rem;
         display: flex;
-        justify-content: center;
-        justify-content: space-around ;
+        display: flex ;
+        align-items: center ;
+        justify-content: center ;
+        margin: 15%;
+     ;
     }
     
     #text {
@@ -57,22 +61,25 @@ export const GlobalStyle = createGlobalStyle`
         color: #6699CC ;
         font-size: 1rem;
         display: flex;
-        justify-content: center;
-        justify-content: space-around ;
+        display: flex ;
+        align-items: center ;
+        justify-content: center ;
+        margin: 15%;
+    
         }
 
-    #icon {
-        margin: 50%;
+    #icon { 
+        display: flex ;
+        align-items: center ;
+        justify-content: center ;
+        margin: 15%;
         height: 200px;
         height: 200px;
         border-radius: 50%;
         display: flex;
-        justify-content: center;
-        justify-content: space-around ;
-        
     }
 
-
+   
 
     body {
         font-size: 1.6rem;
@@ -80,8 +87,7 @@ export const GlobalStyle = createGlobalStyle`
 
         height: 100svh;
         display: flex;
-        justify-content: center;
-        align-items: center;
+     
     }
 
 `
